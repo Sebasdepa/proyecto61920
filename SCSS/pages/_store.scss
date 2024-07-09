@@ -1,0 +1,52 @@
+
+.alquiler {
+    text-align: center;
+}
+
+/* Inicio Grilla */
+.grids {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 0.15fr 1fr 1fr;
+    grid-template-areas:
+    'h2store h2store' 
+    'casa1 casa2'
+    'casa3 casa4';
+
+    justify-content: center;
+    row-gap: 100px;
+    column-gap: 100px; 
+
+    .h2store {
+        grid-area: h2store;
+        text-align: center;
+    }
+
+    .casa1 {
+        grid-area: casa1;
+        object-fit: cover;
+        text-align: center;
+        color: brown;
+    }
+
+    .casa2 {
+        grid-area: casa2;
+        text-align: center;
+        color: brown;
+    }
+
+    .casa3 {
+        grid-area: casa3;
+        text-align: center;
+        color: brown;  
+    }
+
+    .casa4 {
+        grid-area: casa4;
+        text-align: center;
+        color: brown;
+    }
+}
+
+/*Fin Grilla*/
+

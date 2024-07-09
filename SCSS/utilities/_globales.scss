@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $fuentegeneral;
+}
+
+ul {
+    list-style: none;
+
+    li {
+        display: inline-block;
+        text-decoration: none;
+    }
+}
+
+h1 {
+    background-color: $col-celeste;
+    color: $col-blanco;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 50px 0px 10px 0px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 30px 0px 20px 0px;
+    background-color: $col-blanco;
+    color:$col-marron;
+}
+
+p{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+a:hover { 
+    text-decoration: overline
+}
+
+.copy {
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+}
+

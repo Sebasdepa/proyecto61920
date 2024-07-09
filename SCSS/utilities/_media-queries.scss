@@ -1,0 +1,64 @@
+/* Grilla Store */
+@media screen and (max-width: 768px) {
+
+
+    /* Store */
+    .grids {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.05fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        'h2store'
+        'casa1'
+        'casa2'
+        'casa3'
+        'casa4';
+
+        img{
+            width: 80%;
+        }
+    }
+
+    /* Fin Grilla Store*/
+
+    /* Global */
+    h1 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    }
+
+    /* INDEX */
+
+    .h2index { 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    }
+
+
+    .interiorcasa {
+        width: 75%;
+        margin: auto;
+    
+
+        img {
+            width: 100%;
+        }
+    }   
+        /*Fin Index*/
+
+    /* Inicio Contacto*/
+
+    .mapacontacto {
+        width: 75%;
+        margin: auto;
+    
+
+        .iframe1 {
+         width: 100%;
+        }
+    }
+}
+
+

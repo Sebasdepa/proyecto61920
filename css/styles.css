@@ -1,0 +1,187 @@
+.parrafonosotros1, .parrafoservicios {
+  background-color: rgb(24, 123, 168);
+  font-family: arial;
+  color: whitesmoke;
+}
+
+.parrafonosotros2 {
+  background-color: #9fd3c7;
+  font-family: times;
+  color: whitesmoke;
+}
+
+.parrafoservicios {
+  background-color: #385170;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+  text-decoration: none;
+}
+
+h1 {
+  background-color: rgb(23, 134, 209);
+  color: rgb(243, 236, 236);
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  margin: 50px 0px 10px 0px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+  margin: 30px 0px 20px 0px;
+  background-color: rgb(243, 236, 236);
+  color: rgb(158, 38, 38);
+}
+
+p {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: overline;
+}
+
+.copy {
+  font-family: "Times New Roman", Times, serif;
+  color: brown;
+}
+
+footer {
+  padding: 50px 10px;
+}
+
+.h2index {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.interiorcasa {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.email {
+  font-style: italic;
+  color: grey;
+  background-color: snow;
+  height: 50px;
+}
+
+.mapacontacto {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.alquiler {
+  text-align: center;
+}
+
+/* Inicio Grilla */
+.grids {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 0.15fr 1fr 1fr;
+  grid-template-areas: "h2store h2store" "casa1 casa2" "casa3 casa4";
+  justify-content: center;
+  row-gap: 100px;
+  column-gap: 100px;
+}
+.grids .h2store {
+  grid-area: h2store;
+  text-align: center;
+}
+.grids .casa1 {
+  grid-area: casa1;
+  object-fit: cover;
+  text-align: center;
+  color: brown;
+}
+.grids .casa2 {
+  grid-area: casa2;
+  text-align: center;
+  color: brown;
+}
+.grids .casa3 {
+  grid-area: casa3;
+  text-align: center;
+  color: brown;
+}
+.grids .casa4 {
+  grid-area: casa4;
+  text-align: center;
+  color: brown;
+}
+
+/*Fin Grilla*/
+/* Grilla Store */
+@media screen and (max-width: 768px) {
+  /* Store */
+  .grids {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "h2store" "casa1" "casa2" "casa3" "casa4";
+  }
+  .grids img {
+    width: 80%;
+  }
+  /* Fin Grilla Store*/
+  /* Global */
+  h1 {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+  }
+  /* INDEX */
+  .h2index {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+  }
+  .interiorcasa {
+    width: 75%;
+    margin: auto;
+  }
+  .interiorcasa img {
+    width: 100%;
+  }
+  /*Fin Index*/
+  /* Inicio Contacto*/
+  .mapacontacto {
+    width: 75%;
+    margin: auto;
+  }
+  .mapacontacto .iframe1 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
