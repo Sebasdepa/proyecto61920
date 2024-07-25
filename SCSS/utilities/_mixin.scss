@@ -1,11 +1,11 @@
 @mixin parrafo($fondo, $fuente){
     background-color: $fondo;
     font-family: $fuente;
-    color: whitesmoke;
+    color: gray;
 }
 
 .parrafonosotros1{
-    @include parrafo(rgb(24, 123, 168), arial)
+    @include parrafo( $col-blanco, arial)
 }
 
 .parrafonosotros2{

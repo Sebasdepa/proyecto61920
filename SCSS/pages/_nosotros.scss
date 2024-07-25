@@ -1,0 +1,15 @@
+.menunosotroscontenedor{
+    display: flex;
+
+        .menunosotros{
+           position: fixed;
+           top: 90%;
+           z-index: 1;
+
+           a{
+            color: rgb(126, 13, 126);
+            font-size: x-large;
+            font-family: fantasy;
+           }
+        }   
+}

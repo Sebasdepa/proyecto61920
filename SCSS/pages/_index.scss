@@ -2,7 +2,15 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    text-align: center;
+    text-align: right;
+}
+
+@keyframes imagenindex { 
+    0% {opacity: 1;}
+    25% {opacity: 0.8;}
+    50% {opacity: 0.4;}
+    75% {opacity: 0.8;}
+    100% {opacity: 1;}   
 }
 
 .interiorcasa {
@@ -10,5 +18,16 @@
     flex-flow: row wrap;
     justify-content: center;
     margin-bottom: 30px;
+
+    img{
+        animation-name: imagenindex;
+        animation-iteration-count:infinite;
+        animation-duration: 3s;
+        animation-timing-function: ease-in;
+        animation-delay: 1s;
+
+        width: 400px;
+    }
+        
 }
 

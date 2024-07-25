@@ -1,4 +1,30 @@
-/* Grilla Store */
+/* Responsive Tablet */
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+
+    body{
+        background-color: black;
+        p{
+            color: white;
+        }
+    }
+    
+    .parrafonosotros1 {
+        p{
+            color: black;
+        } 
+    }
+
+    img{
+        width: 75%;
+    }
+}
+
+/*Fin Responsive Tablet*/
+
+
+/* Resposive Mobile */
+
 @media screen and (max-width: 768px) {
 
 
@@ -18,16 +44,20 @@
         }
     }
 
-    /* Fin Grilla Store*/
+/* Fin Resposive Mobile*/
 
-    /* Global */
+
+/* Global */
+
     h1 {
     display: flex;
     justify-content: center;
-    background-color: red;
     }
 
-    /* INDEX */
+/* Fin Global */
+
+
+/* Index */
 
     .h2index { 
     display: flex;
@@ -46,9 +76,10 @@
             width: 100%;
         }
     }   
-        /*Fin Index*/
 
-    /* Inicio Contacto*/
+/* Fin Index */
+
+/* Contacto*/
 
     .mapacontacto {
         width: 75%;
@@ -60,5 +91,7 @@
         }
     }
 }
+
+/* Fin Contacto */
 
 
